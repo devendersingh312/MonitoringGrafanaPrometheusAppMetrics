@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UserSecretsId>459e6fc7-fe42-4144-8f17-2c61b78927e6</UserSecretsId>
+    <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="App.Metrics.AspNetCore" Version="4.2.0-preview.0.7" />
+    <PackageReference Include="App.Metrics.AspNetCore.Endpoints" Version="4.2.0-preview.0.7" />
+    <PackageReference Include="App.Metrics.AspNetCore.Tracking" Version="4.2.0-preview.0.7" />
+    <PackageReference Include="App.Metrics.Formatters.Prometheus" Version="4.2.0-preview.0.7" />
+    <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.10.9" />
+  </ItemGroup>
+
+
+</Project>
